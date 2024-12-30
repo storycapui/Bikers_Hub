@@ -1,11 +1,10 @@
 
 import './App.css';
+import Footer from './components/footer'
 
 function App() {
   return (
-    <div className="App">
-    this is bikersHub ecommerce web application
-    </div>
+    <Footer />
   );
 }
 
