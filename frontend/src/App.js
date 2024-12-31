@@ -1,10 +1,14 @@
-
+import ProductCard from './components/productcard';
 import './App.css';
-import Footer from './components/footer'
 
 function App() {
   return (
-    <Footer />
+    <div className='container'>
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/global.css';
 import { FiFacebook } from "react-icons/fi";
 import { RiTelegram2Line } from "react-icons/ri";
 import { FiTwitter } from "react-icons/fi";
@@ -10,7 +11,6 @@ import { LuPhoneCall } from "react-icons/lu";
 
 
 
-import '../styles/global.css';
 
 function Footer() {
   return(
