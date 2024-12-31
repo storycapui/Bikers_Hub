@@ -1,0 +1,229 @@
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-box-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-bottom: solid 1px;
+}
+
+.footer-box-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom: solid 1px;
+}
+
+.footer-box-3{
+    text-align: center;
+}
+
+.footer-image-container{
+    margin-top: 50px;
+}
+
+.footer-sub-containers{
+    margin: 20px;
+}
+
+.footer-sub-containers h1{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.footer-sub-containers p{
+    font-size: 15px;
+}
+
+.contact-us-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscribe-input{
+    padding: 15px;
+    width: 500px;
+}
+
+.subscribe-button{
+    padding: 15px;
+    background-color: #F2A727;
+    border: 1px solid white;
+}
+
+.subscribe-heading{
+    color: #F2A727;
+}
+
+.underline {
+    width: 50px;
+    height: 2px;
+    background-color: #F2A727;
+    margin-bottom: 30px;
+  }
+
+  /* product-card */
+
+.product-card {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .tag-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+  
+  .tag {
+    background-color: #ff6b6b; 
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heart-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heart-icon {
+    font-size: 30px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+  
+  .heart-liked {
+    color: red;
+    animation: pop 0.5s ease;
+  }
+  
+  .heart-outline {
+    color: rgb(0, 0, 0);
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .content-container{
+      padding: 10px;
+    }
+  .content-container div{
+      margin: 0px;
+  }
+  
+  
+  .brand-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .brand-container h1{
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .brand-container p{
+    font-size: 15px;
+  }
+
+  .price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .price-container h1{
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .price-container p{
+    font-size: 15px;
+  }
+
+  .color-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .color-container h1{
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .color-container p{
+    font-size: 15px;
+  }
+
+  .size-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .size-container h1{
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .size-container p{
+    font-size: 15px;
+  }
+
+  .instock-container{
+    font-size: 15px;
+    color: #F2A727;
+  }
+
+  .product-button-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .product-button-container button{
+    background-color: #F2A727;
+    color: black;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+  }

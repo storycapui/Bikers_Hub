@@ -1,10 +1,13 @@
-
+import ProductCard from './components/productcard';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    this is bikersHub ecommerce web application
+    <div className='container'>
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
     </div>
   );
 }
